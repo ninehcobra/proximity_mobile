@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:proximity_mobile/screens/home/home_screen.dart';
+import 'package:proximity_mobile/screens/signin/sign_in_screen.dart';
 
 class IntroScreen extends StatelessWidget {
   const IntroScreen({super.key});
@@ -39,7 +40,7 @@ class IntroScreen extends StatelessWidget {
             onTap: () => Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => const HomeScreen(),
+                  builder: (context) => const SignInScreen(),
                 )),
             child: Container(
                 decoration: BoxDecoration(
