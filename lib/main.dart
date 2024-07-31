@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:proximity_mobile/screens/home/home_screen.dart';
 import 'package:proximity_mobile/screens/intro/intro_screen.dart';
+import 'package:proximity_mobile/screens/signin/sign_in_screen.dart';
 
 void main() {
   runApp(const MyApp());
